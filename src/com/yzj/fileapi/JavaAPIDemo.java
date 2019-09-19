@@ -10,7 +10,12 @@ import java.io.IOException;
 public class JavaAPIDemo {
     public static void main(String[] args) throws IOException {
         File file = new File("D:\\IDEA\\stu\\textIO.txt");
-        System.out.println(file.createNewFile());
+        if(file.exists()){
+            file.delete();
+        }else{
+            System.out.println(file.createNewFile());
+        }
+
     }
 
 }
