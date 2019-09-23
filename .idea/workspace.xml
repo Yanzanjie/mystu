@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bc6160-7100-4d18-8427-ecb773c0e5a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter3/VolatileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter3/VolatileTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/BinaryObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/LifeCycleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObservableRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObserverClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/OctalObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/chapter2/WaitSet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/chapter2/WaitSet$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/chapter2/WaitSet$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/chapter2/WaitSet$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/chapter2/WaitSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/chapter2/WaitSet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,6 +82,18 @@
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter2/WaitSet.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter3/VolatileTest.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter3/VolatileTest2.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/Subject.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/Observer.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/BinaryObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/OctalObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObserverClient.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObservableRunnable.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/LifeCycleListener.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleClient.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/User.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/Gate.java" />
       </list>
     </option>
   </component>
@@ -93,10 +112,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="881" />
-    <option name="y" value="140" />
-    <option name="width" value="1382" />
-    <option name="height" value="858" />
+    <option name="x" value="620" />
+    <option name="y" value="116" />
+    <option name="width" value="1383" />
+    <option name="height" value="859" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -129,12 +148,20 @@
               <item name="yzj" type="462c0819:PsiDirectoryNode" />
               <item name="threadstu" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="FileAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fileapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yzj" type="462c0819:PsiDirectoryNode" />
+              <item name="threadstu" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,16 +195,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VolatileTest2">
-    <configuration name="ISDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzj.fileapi.ISDemo" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter5.Client" />
       <module name="fileapi" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonObject7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter1.SingletonObject7" />
+    <configuration name="ObserverClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter4.ObserverClient" />
+      <module name="fileapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLifeCycleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter4.ThreadLifeCycleClient" />
       <module name="fileapi" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,20 +231,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter2.WaitSet" />
-      <module name="fileapi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ThreadLifeCycleClient" />
+        <item itemvalue="Application.ObserverClient" />
         <item itemvalue="Application.VolatileTest2" />
         <item itemvalue="Application.VolatileTest" />
-        <item itemvalue="Application.WaitSet" />
-        <item itemvalue="Application.SingletonObject7" />
-        <item itemvalue="Application.ISDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -218,15 +245,15 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="705" y="112" width="1105" height="686" extended-state="0" />
+    <frame x="496" y="93" width="1106" height="687" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18147087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23473282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.1768953" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.43423423" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -305,35 +332,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -344,23 +346,6 @@
           <folding>
             <element signature="e#409#410#0" expanded="true" />
             <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -398,9 +383,148 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+          <folding>
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="325">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObserverClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/OctalObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/BinaryObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObservableRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/LifeCycleListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-317">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/Gate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
