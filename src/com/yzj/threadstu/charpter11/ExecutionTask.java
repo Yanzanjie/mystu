@@ -18,5 +18,6 @@ public class ExecutionTask implements Runnable {
         httpAction.execture(context);
         System.out.println("成功获取卡号");
         System.out.println("姓名："+context.getName()+"卡号："+context.getCardId());
+
     }
 }
