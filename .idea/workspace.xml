@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bc6160-7100-4d18-8427-ecb773c0e5a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ContextTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ActionContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalComplexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalComplexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalSimulatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalSimulatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter10/ThreadLocalComplexTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter10/ThreadLocalComplexTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter10/ThreadLocalSimulatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter10/ThreadLocalSimulatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/ExecutionTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/ExecutionTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/QueryFromDBAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/QueryFromDBAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/QueryFromHttpAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/QueryFromHttpAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +38,61 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ActionContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <folding>
+                <element signature="e#171#309#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ContextTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yzj/fileapi/ISDemo.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject1.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject2.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject3.java" />
@@ -109,12 +164,13 @@
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalSimulator.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryAction.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/Context.java" />
-        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java" />
-        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java" />
-        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ContextTest.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalComplexTest.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalSimulatorTest.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ActionContext.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java" />
       </list>
     </option>
   </component>
@@ -133,10 +189,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="892" />
-    <option name="y" value="127" />
+    <option name="x" value="755" />
+    <option name="y" value="77" />
     <option name="width" value="1385" />
-    <option name="height" value="985" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -279,6 +335,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16018766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -286,7 +343,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.19546743" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.35410765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3711048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -294,7 +351,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.2407932" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.19546743" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3292683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,30 +399,14 @@
     <MESSAGE value="Future template" />
     <MESSAGE value="Thread" />
     <MESSAGE value="ThreadLocal" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThreadLocal" />
+    <MESSAGE value="Thread Context" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Context" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/fileapi/JavaAPIDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -700,51 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ContextTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalSimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -779,6 +775,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="32" column="36" lean-forward="true" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ActionContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#171#309#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ContextTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
         </state>
       </provider>
     </entry>

@@ -5,7 +5,8 @@ package com.yzj.threadstu.charpter11;
  * 日期: 2019/9/26
  */
 public class QueryFromHttpAction {
-    public void execture(Context context){
+    public void execture(){
+        Context context = ActionContext.getActionContext().getContext();
         String name = context.getName();
         String cardId = getCardId(name);
         context.setCardId(cardId);

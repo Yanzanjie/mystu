@@ -6,11 +6,11 @@ package com.yzj.threadstu.charpter11;
  */
 public class QueryFromDBAction {
 
-    public void execute(Context context){
+    public void execute(){
         try {
             Thread.sleep(1000);
             String name = "Alex"+Thread.currentThread().getId();
-            context.setName(name);
+            ActionContext.getActionContext().getContext().setName(name);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
