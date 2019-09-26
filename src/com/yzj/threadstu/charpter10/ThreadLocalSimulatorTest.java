@@ -10,6 +10,7 @@ public class ThreadLocalSimulatorTest {
     private final static ThreadLocalSimulator<String> threadLocal = new ThreadLocalSimulator<>();
 
     private final static Random random = new Random(System.currentTimeMillis());
+
     public static void main(String[] args) throws InterruptedException {
 
         Thread t1 = new Thread(() ->{

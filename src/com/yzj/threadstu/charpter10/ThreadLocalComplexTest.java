@@ -11,6 +11,7 @@ public class ThreadLocalComplexTest {
     private final static ThreadLocal<String> threadLocal = new ThreadLocal<>();
 
     private final static Random random = new Random(System.currentTimeMillis());
+
     public static void main(String[] args) throws InterruptedException {
 
         Thread t1 = new Thread(() ->{
