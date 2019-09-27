@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bc6160-7100-4d18-8427-ecb773c0e5a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ActionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter12/BalkingData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter10/ThreadLocalComplexTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter10/ThreadLocalComplexTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter10/ThreadLocalSimulatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter10/ThreadLocalSimulatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/ExecutionTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/ExecutionTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/QueryFromDBAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/QueryFromDBAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/QueryFromHttpAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fileapi/com/yzj/threadstu/charpter11/QueryFromHttpAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,56 +30,15 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ActionContext.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding>
-                <element signature="e#171#309#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#146#147#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter12/BalkingData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ContextTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="502">
+              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject1.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject2.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject3.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject4.java" />
@@ -171,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromDBAction.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/QueryFromHttpAction.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter11/ExecutionTask.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/charpter12/BalkingData.java" />
       </list>
     </option>
   </component>
@@ -188,11 +139,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="755" />
-    <option name="y" value="77" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="777" />
+    <option name="y" value="168" />
     <option name="width" value="1385" />
-    <option name="height" value="917" />
+    <option name="height" value="918" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -232,13 +184,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yzj" type="462c0819:PsiDirectoryNode" />
               <item name="threadstu" type="462c0819:PsiDirectoryNode" />
-              <item name="charpter11" type="462c0819:PsiDirectoryNode" />
+              <item name="charpter12" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,16 +285,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="710" y="84" width="1108" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16018766" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2857143" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2495238" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.35410765" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.35410765" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3711048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,36 +358,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter1/SingletonObject6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter2/WaitSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#748#868#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/SimpleThreadPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/SimpleThreadPool.class" />
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter3/VolatileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
@@ -741,17 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalSimpleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#166#296#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalSimulator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -838,6 +749,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleThreadPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1839">
+          <caret line="200" column="8" lean-forward="true" selection-start-line="200" selection-start-column="8" selection-end-line="203" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#6372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter10/ThreadLocalSimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/charpter12/BalkingData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
