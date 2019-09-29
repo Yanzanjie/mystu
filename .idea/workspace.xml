@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bc6160-7100-4d18-8427-ecb773c0e5a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter14/CountDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter14/CustomCountDownClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter14/JDKCountDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/MessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/PerThreadClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/text/TextThis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,40 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/MessageHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/com/yzj/text/TextThis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/PerThreadClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="357">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -102,7 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObserverClient.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObservableRunnable.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/LifeCycleListener.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleObserver.java" />
@@ -151,8 +116,9 @@
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter14/CountDown.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter14/CustomCountDownClient.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/Message.java" />
-        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/PerThreadClient.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/MessageHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/PerThreadClient.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/text/TextThis.java" />
       </list>
     </option>
   </component>
@@ -171,10 +137,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="831" />
-    <option name="y" value="82" />
+    <option name="x" value="542" />
+    <option name="y" value="57" />
     <option name="width" value="1385" />
-    <option name="height" value="979" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -182,7 +148,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -207,20 +172,13 @@
               <item name="fileapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yzj" type="462c0819:PsiDirectoryNode" />
-              <item name="threadstu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FileAPI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fileapi" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="yzj" type="462c0819:PsiDirectoryNode" />
-              <item name="threadstu" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter15" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,15 +192,15 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.yzj.threadstu.charpter11" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\stu\file\fileapi\src\com\yzj\threadstu" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yzj.threadstu.chapter3" />
       <recent name="com.yzj.threadstu.chapter1" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IDEA\stu\file\fileapi\src\com\yzj\threadstu" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yzj.threadstu.charpter11" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,14 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PerThreadClient">
-    <configuration name="ContextTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter11.ContextTest" />
-      <module name="fileapi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TextThis">
     <configuration name="CustomCountDownClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter14.CustomCountDownClient" />
       <module name="fileapi" />
@@ -293,13 +244,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzj.text.TextThis" />
+      <module name="fileapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextThis" />
         <item itemvalue="Application.PerThreadClient" />
         <item itemvalue="Application.CustomCountDownClient" />
         <item itemvalue="Application.JDKCountDown" />
         <item itemvalue="Application.ProducterAndConsumerClient" />
-        <item itemvalue="Application.ContextTest" />
       </list>
     </recent_temporary>
   </component>
@@ -316,16 +274,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="661" y="106" width="1108" height="734" extended-state="0" />
+    <frame x="434" y="46" width="1108" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20571429" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21238095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2495238" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.20431894" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.2852761" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3711048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,31 +315,14 @@
     <MESSAGE value="Thread" />
     <MESSAGE value="ThreadLocal" />
     <MESSAGE value="Thread Context" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread Context" />
+    <MESSAGE value="count model" />
+    <option name="LAST_COMMIT_MESSAGE" value="count model" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/OctalObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/BinaryObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObservableRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -789,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="100">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding>
             <element signature="e#169#170#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
@@ -800,22 +741,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/PerThreadClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/MessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        <state relative-caret-position="154">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1194#1195#0" expanded="true" />
             <element signature="e#1237#1238#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/PerThreadClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2559">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/text/TextThis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
         </state>
       </provider>
     </entry>
