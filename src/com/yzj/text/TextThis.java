@@ -6,11 +6,12 @@ package com.yzj.text;
  */
 public class TextThis {
 
-    private static Object a =3;
+    private static Object a = 3;
+    private static Object b = 3;
 
-    private Object b = 3;
+//    private Object b = 3;
 
-    private boolean eq(){
+    private static boolean eq(){
 //        System.out.println(this);
 //        System.out.println(a);
 //        System.out.println(b);
@@ -20,6 +21,6 @@ public class TextThis {
     public static void main(String[] args) {
         TextThis tt = new TextThis();
         tt.eq();
-        System.out.println(tt.eq());
+        System.out.println(TextThis.eq());
     }
 }
