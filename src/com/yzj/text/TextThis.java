@@ -21,6 +21,7 @@ public class TextThis {
     public static void main(String[] args) {
         TextThis tt = new TextThis();
         tt.eq();
-        System.out.println(TextThis.eq());
+        System.out.println(eq());//方法上有static时将可以直接调用
+//        System.out.println(new TextThis().eq());//方法上没有static时要引用对象调用
     }
 }
