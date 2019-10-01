@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48bc6160-7100-4d18-8427-ecb773c0e5a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter16/CounterIncrement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/yzj/threadstu/chapter16/CounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yzj/text/TextThis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yzj/text/TextThis.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,17 +31,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/yzj/text/TextThis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -68,8 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObservableRunnable.java" />
-        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/LifeCycleListener.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleObserver.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleClient.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter5/Client.java" />
@@ -119,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/MessageHandler.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter15/PerThreadClient.java" />
         <option value="$PROJECT_DIR$/src/com/yzj/text/TextThis.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter16/CounterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/yzj/threadstu/chapter16/CounterIncrement.java" />
       </list>
     </option>
   </component>
@@ -137,10 +128,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="542" />
-    <option name="y" value="57" />
+    <option name="x" value="471" />
+    <option name="y" value="11" />
     <option name="width" value="1385" />
-    <option name="height" value="980" />
+    <option name="height" value="983" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -148,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,13 +162,22 @@
               <item name="fileapi" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yzj" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="threadstu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FileAPI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fileapi" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yzj" type="462c0819:PsiDirectoryNode" />
+              <item name="threadstu" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter16" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,9 +186,9 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33944955" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -215,7 +214,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TextThis">
+  <component name="RunManager" selected="Application.CounterTest">
+    <configuration name="CounterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter16.CounterTest" />
+      <module name="fileapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomCountDownClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter14.CustomCountDownClient" />
       <module name="fileapi" />
@@ -237,13 +243,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducterAndConsumerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzj.threadstu.chapter13.ProducterAndConsumerClient" />
-      <module name="fileapi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TextThis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yzj.text.TextThis" />
       <module name="fileapi" />
@@ -253,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CounterTest" />
         <item itemvalue="Application.TextThis" />
         <item itemvalue="Application.PerThreadClient" />
         <item itemvalue="Application.CustomCountDownClient" />
         <item itemvalue="Application.JDKCountDown" />
-        <item itemvalue="Application.ProducterAndConsumerClient" />
       </list>
     </recent_temporary>
   </component>
@@ -274,16 +273,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="434" y="46" width="1108" height="784" extended-state="0" />
-    <editor active="true" />
+    <frame x="377" y="9" width="1108" height="786" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21238095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21714285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2495238" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.2852761" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.28440368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3711048" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,26 +322,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ObservableRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/LifeCycleListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter4/ThreadLifeCycleObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-317">
@@ -770,20 +748,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yzj/text/TextThis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="228">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter16/CounterIncrement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/yzj/threadstu/chapter16/CounterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33944955" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33944955" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.33944955" />
               </list>
             </option>
           </splitter-proportions>
@@ -792,6 +812,18 @@
       <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33944955" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fileapi</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
