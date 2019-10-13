@@ -38,7 +38,9 @@ public class Channel {
 
     //将工作推出去完成
     public void startWorker(){
-        Arrays.asList(workerPool).forEach(WorkerThread::start);
+        Arrays.asList(workerPool).forEach(worker->worker.start());
+
+
     }
 
     public synchronized void put(Request request){
@@ -65,7 +67,8 @@ public class Channel {
             }
         }
         Request request = this.requestQueue[head];
-        this.head = (this.head + 1) % this.requestQueue.length;startWorker();
+        this.head = (this.head + 1) % this.requestQueue.length;
+//        startWorker();
         this.count--;
         this.notifyAll();
         return request;
